@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+@import url('navbar');
+
+/* Basics */
+
+.margin {
+  margin-top: 40px;
+}
+.margin-bottom {
+  margin-bottom: 40px;
+}
