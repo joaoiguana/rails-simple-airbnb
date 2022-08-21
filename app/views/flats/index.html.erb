@@ -1,11 +1,13 @@
 <div class="container">
-  <h1>All our flats</h1>
+  <h1 class="margin">All our flats</h1>
   <ul>
     <% @flats.each do |flat| %>
     <div class="card-deck d-inline-flex p-2">
       <div class="card margin margin-bottom" style="width: 18rem;">
-        <%# <%= image_tag "#{}" %>
+        <%# <%= image_tag '' %>
+        <%= image_tag("#{flat.poster_url}", class: 'poster')%>
         <div class="card-body">
+          <%# <%= image_tag flat.poster_url %>
           <p class="card-text"><%= flat.name %></p>
           <p class="card-text"><%= flat.address %></p>
           <p class="card-text"><%= flat.price_per_night %>€. Guests: <%= flat.number_of_guests %></p>

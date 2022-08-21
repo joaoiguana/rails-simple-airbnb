@@ -10,4 +10,5 @@
   <p><%= @flat.description %></p>
   <h4>Details</h4>
   <p><%= @flat.price_per_night %>€ <%= @flat.number_of_guests %> guests</p>
+  <%= link_to "Other options", flats_path, class: 'btn btn-ghost' %>
 </div>
