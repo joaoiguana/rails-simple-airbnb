@@ -22,7 +22,7 @@ class FlatsController < ApplicationController
   end
 
   def update
-    @flat.update(params[:flat])
+    @flat.update(flat_params)
     redirect_to flat_path(@flat)
   end
 
@@ -34,7 +34,7 @@ class FlatsController < ApplicationController
   private
 
   def flat_params
-    params.require(:flat).permit(:name, :address, :description, :price_per_nigh, :number_of_guests)
+    params.require(:flat).permit(:name, :address, :description, :price_per_nigh, :number_of_guests, :poster_url)
   end
 
   def set_flat
