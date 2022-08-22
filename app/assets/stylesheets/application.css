@@ -13,22 +13,22 @@
  *= require_tree .
  *= require_self
  */
-@import url('navbar');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap');
+/* @import url('navbar'); */
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 /* Basics */
 
-p {
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Sora', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
-}
 
 .margin {
   margin-top: 40px;
 }
 .margin-bottom {
   margin-bottom: 40px;
+}
+.padding {
+  padding: 20px;
 }

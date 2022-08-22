@@ -10,3 +10,10 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.morph {
+  border-radius: 5px;
+  background: #F0F0F0;
+  box-shadow:  20px 20px 60px #cccccc,
+              -20px -20px 60px #ffffff;
+}
